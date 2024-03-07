@@ -6,7 +6,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-all_df= pd.read_csv("dashboard/all_data.csv")
+all_df= pd.read_csv("all_data.csv")
 
 
 st.title('Dashboard Data Penyewaan Sepeda')
